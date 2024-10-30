@@ -1,0 +1,11 @@
+name: khmer_currency_formatter_example
+description: A simple example of using the khmer_currency_formatter package.
+version: 0.0.1
+publish_to: none  # Mark this package as not for publishing
+environment:
+  sdk: "^3.5.3"
+dependencies:
+  flutter:
+    sdk: flutter
+  khmer_currency_formatter:
+    path: ../ # Reference the package in the lib folder
